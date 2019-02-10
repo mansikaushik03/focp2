@@ -8,14 +8,14 @@ class JSONConverter{
 		String c,csvfilename,jsonfilename;
 		boolean b;
 		System.out.println("CSV FILE");
-		csvfilename = "C:\\Users\\Nikhil\\Desktop\\csvtojson\\csvs\\"+getFileName();
+		csvfilename = "C:\\Users\\Mansi kaushik\\Desktop\\csvtojson\\csvs\\"+getFileName();
 		System.out.println(csvfilename);
 		NameValidator csvObject = new NameValidator();
 		b = csvObject.nameValidator(csvfilename,"csv");
 		if(b==true)
 			System.out.println("CSV File is OK..");
 		System.out.println("JSON FILE");
-		jsonfilename = "C:\\Users\\Nikhil\\Desktop\\csvtojson\\jsons\\"+getFileName();
+		jsonfilename = "C:\\Users\\Mansi kaushik\\Desktop\\csvtojson\\jsons\\"+getFileName();
 		b = csvObject.nameValidator(jsonfilename,"json");
 		if(b==true)
 			System.out.println("JSON File is OK..");
