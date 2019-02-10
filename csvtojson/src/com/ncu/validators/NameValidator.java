@@ -15,9 +15,9 @@ public class NameValidator{
 		Properties prop = new Properties();
 		FileInputStream input=null; 
 		Logger logger = Logger.getLogger(NameValidator.class);
-		PropertyConfigurator.configure("C:\\Users\\Nikhil\\Desktop\\csvtojson\\configs\\logger");
+		PropertyConfigurator.configure("C:\\Users\\Mansi kaushik\\Desktop\\csvtojson\\configs\\logger");
 		try{	
-			input = new FileInputStream("C:\\Users\\Nikhil\\Desktop\\csvtojson\\configs\\constants\\exceptions.properties");
+			input = new FileInputStream("C:\\Users\\Mansi kaushik\\Desktop\\csvtojson\\configs\\constants\\exceptions.properties");
 			prop.load(input);
 			emptyFileName(filename);
 			missingDot(filename);
